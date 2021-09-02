@@ -11,7 +11,6 @@ def handler():
         'table': 'стол',
     }
     translation = dictionary.get(word, 'не найдено в словаре')
-
     return render_template(
         'form.html',
         word=word,

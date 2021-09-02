@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
 source .venv/bin/activate
-python -m flask run
+FLASK_ENV=development python -m flask run
 deactivate
